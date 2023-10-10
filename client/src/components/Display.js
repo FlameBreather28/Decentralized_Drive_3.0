@@ -27,7 +27,11 @@ const Display = ({ contract, account }) => {
           <a href={item} key={i} target="_blank">
             <img
               key={i}
+
               src={`https://gateway.pinata.cloud/ipfs/${item.substring(34)}`}
+
+  
+
               alt="new"
               className="image-list"
             ></img>
